@@ -1,0 +1,26 @@
+header{
+  position: absolute;
+  top:60px;
+  left:0;
+  right: 0;
+  .wr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-menu{
+      ul{
+        display: flex;
+        a{
+          color: #e3d4ff;
+          font-weight: 400;
+          margin: 0 16px;
+          border-bottom: 1px solid transparent;
+          transition: .3s;
+          &:hover{
+            border-bottom: 1px solid;
+          }
+        }
+      }
+    }
+  }
+}

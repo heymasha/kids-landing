@@ -1,0 +1,82 @@
+.features {
+  background: #ffffff;
+  height: 100vh;
+  padding: 48px 0;
+  text-align: center;
+  .wr{
+
+  }
+  .text-title{
+    color: #673ab7;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 0 0 5vh 0;
+  }
+  .features-wr{
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    .feature-i {
+      flex-basis: 33.333%;
+      margin: 0 0 32px 0;
+      &:nth-child(1), &:nth-child(6){
+        .icon-wr{
+          background-image: url("../img/locations-icon.png");
+        }
+      }
+      &:nth-child(2), &:nth-child(4){
+        .icon-wr{
+          background-image: url("../img/places-icon.png");
+        }
+      }
+      &:nth-child(3), &:nth-child(5){
+        .icon-wr{
+          background-image: url("../img/app-icon.png");
+        }
+      }
+      .feature-i-inner{
+        padding: 0 40px;
+        .icon-wr {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-size: 100% 100%;
+          width: 100px;
+          height: 86px;
+          margin: 0 auto 20px;
+          .app-icon{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 48px;
+            span{
+              background: #00d59c;
+              border-radius: 50%;
+              width: 12px;
+              height: 12px;
+              margin: 1.5px;
+            }
+          }
+          i {
+            color: #00d59c;
+            font-size: 48px;
+          }
+        }
+        .title {
+          color: #4f5360;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 22px;
+          margin: 0 0 16px 0;
+        }
+        p{
+          font-size: 16px;
+          line-height: 22px;
+          color: #4f5360;
+        }
+      }
+    }
+  }
+}

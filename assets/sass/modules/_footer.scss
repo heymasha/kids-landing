@@ -1,0 +1,28 @@
+footer{
+  background: #ffffff;
+  padding: 64px 0;
+  .wr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .nav-menu{
+      ul{
+        display: flex;
+        a{
+          color: #5bd061;
+          font-weight: 400;
+          margin: 0 16px;
+          border-bottom: 1px solid transparent;
+          transition: .3s;
+          &:hover{
+            border-bottom: 1px solid;
+          }
+        }
+      }
+    }
+    .cop{
+      color: #4f5360;
+      opacity: .5;
+    }
+  }
+}

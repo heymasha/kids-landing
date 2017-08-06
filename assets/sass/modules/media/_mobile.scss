@@ -1,0 +1,98 @@
+@media only screen and (max-width: 700px) {
+  html, body {
+    font-size: 14px;
+  }
+  .main-banner .wr .r-side{
+    display: none;
+  }
+  .main-banner .wr .l-side .title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  header {
+    top: 30px;
+  }
+  .main-banner{
+    text-align: center;
+  }
+  .main-banner .wr .l-side p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .main-banner .wr .l-side .btn-box a {
+    margin: 0;
+    display: inline-block;
+  }
+  .eye-block {
+    font-size: 16px;
+    line-height: 21px;
+    padding: 48px 0;
+
+  }
+  .text-title{
+    font-size: 26px!important;
+    text-align: center;
+  }
+  .features .wr .features-wr .feature-i {
+    margin: 20px 0;
+    flex-basis: 100%;
+  }
+  .location .wr .phone{
+    display: none;
+  }
+  .location .wr{
+    display: block;
+  }
+  .location .l-side .text-title{
+    margin: 0 0 5vh 0;
+  }
+  .location .r-side{
+    text-align: center;
+  }
+  .set-up .wr .step-wr{
+    display: block;
+  }
+  .set-up .wr .step-wr .step-i{
+    margin: 0 0 5vh 0;
+  }
+  .main-bottom .wr{
+    display: block;
+  }
+  .main-bottom {
+    padding: 48px 0;
+  }
+  .main-bottom .r-side{
+    display: none;
+  }
+  .main-bottom .l-side .btn-box{
+    display: block;
+    text-align: center;
+  }
+  .main-bottom .l-side .btn-box a{
+    margin: 0;
+    display: inline-block;
+  }
+  footer {
+    padding: 48px 0;
+  }
+  footer .wr{
+    display: block;
+  }
+  footer .wr .nav-menu ul a{
+    margin: 0 6px;
+  }
+  footer .wr .cop {
+    margin: 5vh 0 0 0;
+  }
+  .main-bottom .l-side .text-box .text-i{
+    flex-basis: 100%;
+    margin: 0 0 5vh 0;
+    text-align: center;
+  }
+  .main-banner .wr .l-side{
+    flex-basis: 100%;
+  }
+  .main-bottom .l-side{
+    margin: 0 auto;
+  }
+}

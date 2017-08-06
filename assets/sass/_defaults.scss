@@ -1,0 +1,47 @@
+html, body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.wr{
+    max-width: 1020px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.test{
+    background: #00d59c;
+    height: 100vh;
+    .track-wr{
+        width: 100px;
+        height: 100px;
+        background:#ffffff;
+        border: 1px solid #673ab7;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .eye{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #000000;
+        position: absolute;
+        transform: translate(-50%,-50%);
+    }
+}
+.forward-scroll{
+    position: relative;
+    z-index: 2;
+}
+#animated-bg{
+    background: #673ab7;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+}
+
